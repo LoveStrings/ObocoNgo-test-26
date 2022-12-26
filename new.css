@@ -204,20 +204,20 @@ h2{
     color: white;
 }
 .linking{
-    margin-left: 200px;
-    margin-top: -60px;
+    margin-left: 180px;
+    margin-top: -550px;
     background-color: darkgrey;
-    padding-top: 20px;
+    padding-top: 17px;
     border-radius: 15px;
-    width: 35%;
-    height: 12VH;
+    width: 30%;
+    height: 10VH;
 }
 .wordstwo{
     background-color: darkgrey;
     margin-top: -15px;
     margin-left: 20PX;
-    width: 80%;
-    font-size: 20px;
+    width: 60%;
+    font-size: 16px;
 }
 .flash-cards{
     border-radius: 7px;
