@@ -352,6 +352,7 @@ h2{
 .happening{
     color:goldenrod; 
     margin-left: 50px;
+	position:relative;
 }
 .love{
     color: white;
