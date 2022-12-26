@@ -17,13 +17,15 @@ body{
 
 .logo{
     margin-top: 4px;
-    margin-left: 30px;
+    margin-left: 40px;
     border-radius: 50pt 50pt 50pt 650pt;
+    width: 90%;
 
 }
 header{
     position: relative;
-    background-color: rgb(212, 164, 7);
+    background-color:	goldenrod;
+    image-resolution: 100px;
     width: 100%;
     z-index: 999%;
    
@@ -152,9 +154,9 @@ h2{
 }
 
 .first-link{
-    border: 1px solid white;
+    border: 4px solid white;
     margin-left: 270px;
-    background-color: gold;
+    background-color:goldenrod;
     color: white;
     font-size: 20px;
     border-radius: 20px;
@@ -198,7 +200,7 @@ h2{
 .another-link{
     border-radius: 10px;
     padding: 5px 7px;
-    background-color: gold;
+    background-color:goldenrod;
     margin-left: 30px;
     margin-top: 90px;
     font-size: 23px;
@@ -223,9 +225,9 @@ h2{
     text-align: center;
 }
 .flash-cards{
-    border-radius: 7px;
+    border-radius: 50px;
     height: 56vh;
-    border: 2px solid gold;
+    border: 5px solid goldenrod;
     width: 70%;
     margin-left: 50px;
 }
@@ -248,7 +250,7 @@ h2{
 .another-links{
     border-radius: 10px;
     padding: 5px 7px;
-    background-color: gold;
+    background-color: goldenrod;
     margin-left: 30px;
     margin-top: 90px;
     font-size: 23px;
@@ -261,7 +263,7 @@ h2{
     margin-left: 180px;
 }
 .buttontee{
-    background-color: gold;
+    background-color: goldenrod;
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -273,7 +275,7 @@ h2{
 }
 .buttontee:hover{
     background-color: transparent;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
     cursor: pointer;
 }
 .erosion{
@@ -294,8 +296,9 @@ h2{
 }
 .container{
     position: relative;
-	border: 3px solid goldenrod;
+	border: 0px solid goldenrod;
     width: 350px;
+    background: goldenrod;
     margin-left: 3px;
     padding: 10px 10px 10px 10px;
     margin-bottom: 5px;
@@ -396,7 +399,7 @@ h2{
         margin-top: -100px;
         width: 50%;
         margin-left: 330px;
-        border: 1px solid gold;
+        border: 4px solid goldenrod gold;
 }
 /* Second Screen */
 
