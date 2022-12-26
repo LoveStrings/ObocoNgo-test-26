@@ -423,6 +423,14 @@ h2{
     .nav-toggle-label{
         display: none;
     }
+	.foot{
+    border: 6px solid goldenrod;
+    width: 100%;
+    color: blanchedalmond;
+    background-color:blue;
+    left:0;
+    
+}
 header{
     display: grid;
     grid-template-columns: 1fr auto minmax(600px 1fr);
@@ -530,6 +538,14 @@ margin:10px;
         width: 150px;
         margin-left: 70px;
     }
+	.foot{
+    border: 6px solid goldenrod;
+    width: 100%;
+    color: blanchedalmond;
+    background-color:blue;
+    left:0;
+    
+}
     .Headingone{
         font-size: 60px;
         margin-top: -20px;
@@ -746,6 +762,14 @@ margin:10px;
         margin-left: 29px;
         margin-top: -80px;
     }
+	.foot{
+    border: 6px solid goldenrod;
+    width: 100%;
+    color: blanchedalmond;
+    background-color:blue;
+    left:0;
+    
+}
     .Headingone{
         font-size: 60px;
     }
