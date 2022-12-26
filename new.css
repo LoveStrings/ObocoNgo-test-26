@@ -206,6 +206,7 @@ h2{
     color: white;
 }
 .linking{
+	position:relative;
     margin-left: 180px;
     margin-top: -550px;
     background-color: darkgrey;
