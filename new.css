@@ -227,7 +227,14 @@ h2{
 .flash-cards{
     border-radius: 50px;
     height: 56vh;
-    border: 5px solid goldenrod;
+    border: 7px solid goldenrod;
+    width: 70%;
+    margin-left: 50px;
+}
+.flash-cards3{
+    border-radius: 50px;
+    height: 49vh;
+    border: 7px solid goldenrod;
     width: 70%;
     margin-left: 50px;
 }
@@ -240,9 +247,9 @@ h2{
 }
 .linkings{
     margin-left: 160px;
-    margin-top: -20px;
+    margin-top: -30px;
     background-color: darkgrey;
-    padding-top: 20px;
+    padding-top: 100px;
     border-radius: 15px;
     width: 35%;
     height: 12VH;
@@ -299,7 +306,7 @@ h2{
 	border: 0px solid goldenrod;
     width: 350px;
     background: goldenrod;
-    margin-left: 3px;
+    margin-left: 20px;
     padding: 10px 10px 10px 10px;
     margin-bottom: 5px;
 
@@ -310,6 +317,7 @@ h2{
     position: relative;
     width: 350px;
    height: 30vh;
+   border-radius: 110px 2px 3px 10px;
 }
 .swiper-slide img{
     position: relative;
@@ -400,6 +408,14 @@ h2{
         width: 50%;
         margin-left: 330px;
         border: 4px solid goldenrod gold;
+}
+.foot{
+    border: 6px solid goldenrod;
+    width: 100%;
+    color: blanchedalmond;
+    background-color:blue;
+    left:0;
+    
 }
 /* Second Screen */
 
