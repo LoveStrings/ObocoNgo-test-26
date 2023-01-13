@@ -154,6 +154,12 @@ border-bottom: none;
 .address{
     display: none;
 }
+.our-mission{
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: #dd9104;
+}
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -161,6 +167,22 @@ h2{
     margin-top: 10%;
     font-size: 35px;
 }
+.containers {
+    color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 40px;
+  }
+  
+  .more {
+    display: none;
+  }
+  
+  .read-more {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+  }
 
 .first-link{
     border: 4px solid white;
@@ -497,7 +519,7 @@ header{
     grid-template-columns: 1fr auto minmax(600px 1fr);
     align-items: center;
     border-radius: 100pt 10pt 0pt 60pt;
-    position:fixed;
+    position:relative;
 }
     .logo{
         grid-column: 0/4; 
@@ -630,6 +652,8 @@ margin:10px;
         margin-top: 80px;
         height: 70vh;
     }
+    
+
     .fill{
         margin-left: 240px;
         margin-top: 40px;
@@ -848,7 +872,20 @@ margin:10px;
     .container{
         width: 90%;
         margin-left: 40px;
-        margin-top: 80px;
+        margin-top: 8px;
+        height: 70vh;
+        padding: 0 0 0 0;
+    }
+    .swiper{
+        position: relative;
+        width: 650px;
+       height: 80vh;
+       border-radius: 110px 2px 3px 10px;
+    }
+    .swiper-slide img{
+        position: relative;
+        width:650px;
+        border-radius: 110px 30px 78px 20px;
         height: 70vh;
     }
     .fill{
@@ -911,34 +948,58 @@ margin:10px;
         color: white;
     }
     .flash-cards{
+        padding: 0;
+        margin: 0;
         border-radius: 7px;
         height: 50vh;
         width: 90%;
-        margin-left: 80px;
+        margin-left: 60px;
+
+        
+       
     }
     .pngss{
         width: 150px;
-        margin-left: 120px;
-        margin-top: 10px;
+        margin-left: 350px;
+        margin-top: 10px;  
+        width: 50px;
+
+        
     }
     .pngse{
         width: 150px;
-        margin-left: 120px;
-        margin-top: 100px;    
+        margin-left: 350px;
+        margin-top: 10px;  
+        width: 50px;
     }
     .pngsh{
         width: 150px;
-        margin-left: 120px;
-        margin-top: 150px;
+        margin-left: 350px;
+        margin-top: 10px;  
+        width: 50px;
     }
     .my-images{
+        position: relative;
         width: 330px;
+        margin-left: 10px;
+        margin-top: -150px;
+        margin-bottom: -170px;
     }
     .writtings{
+       position: relative;
         color: white; 
         margin-left: 130px;
         font-size: 40px; 
+        margin-top: -60px;
     
+    }
+    .flash-cards3{
+        padding: 0;
+        margin: 0;
+        border-radius: 7px;
+        height: 50vh;
+        width: 90%;
+        margin-left: 60px;
     }
     .happening{
         color:whitesmoke; 
@@ -949,7 +1010,7 @@ margin:10px;
         color: white;
         font-size: 30px;
         margin-left: 450px;
-        margin-top: -260px;
+        margin-top: -20px;
         
     }
     .buttontee{
