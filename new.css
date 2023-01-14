@@ -160,6 +160,26 @@ border-bottom: none;
     font-weight: bolder;
     text-shadow: #dd9104;
 }
+button {
+    background-color: rgb(12, 12, 12);
+    color: #fff;
+    border: 2px solid goldenrod;
+  }
+  
+  button:hover {
+    background-color: goldenrod;
+  }
+  .project{
+    margin-left: 60%;
+    padding-left: 30px;
+    color: #fff;
+   
+  }
+.ceo-image{
+    
+    box-sizing: 2px;
+    border-radius: 2px;
+}
 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -872,22 +892,24 @@ margin:10px;
     .container{
         width: 90%;
         margin-left: 40px;
-        margin-top: 8px;
+        margin-top: 10px;
         height: 70vh;
-        padding: 0 0 0 0;
+        border: none;
     }
     .swiper{
         position: relative;
-        width: 650px;
-       height: 80vh;
-       border-radius: 110px 2px 3px 10px;
+        width: 100%;
+       height: 70vh;
     }
     .swiper-slide img{
         position: relative;
-        width:650px;
+        width:100%;
         border-radius: 110px 30px 78px 20px;
         height: 70vh;
     }
+    .erosion{
+        width: 20%;
+        margin-top: 150px;
     .fill{
         margin-left: 240px;
         margin-top: 40px;
