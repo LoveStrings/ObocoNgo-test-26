@@ -23,7 +23,7 @@ body{
 }
 header{
     position: relative;
-    background-color: rgb(212, 164, 7);
+    background-color: #cb9b51;
     width: 100%;
     z-index: 999%;
    
@@ -147,25 +147,25 @@ h2{
     align-items: center;
 }
 span{
-    color: goldenrod;
+    color: #cb9b51;
 }
 a{
     color: white;
 }
 a:hover{
-    color: goldenrod;
+    color: #cb9b51;
 }
 .content-contact{
     color: white;
 }
 @media only screen and (min-width: 1000px) {
 .first-div{
-    border: 2px solid goldenrod;
+    border: 2px solid #cb9b51;
     width: 50%;
     border-radius: 25px;
 }
 .contact{
-    border: 2px solid goldenrod;
+    border: 2px solid #cb9b51;
     margin-left: 760px;
     color: white;
     width: 33%;
